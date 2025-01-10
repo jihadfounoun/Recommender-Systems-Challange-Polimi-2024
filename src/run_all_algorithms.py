@@ -1,11 +1,11 @@
 
 from Recommenders.Recommender_import_list import *
 
-from src.Data_manager.Movielens.Movielens1MReader import Movielens1MReader
-from src.Data_manager import DataSplitter_leave_k_out
+from Data_manager.Movielens.Movielens1MReader import Movielens1MReader
+from Data_manager import DataSplitter_leave_k_out
 from Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
 from Recommenders.BaseCBFRecommender import BaseItemCBFRecommender, BaseUserCBFRecommender
-from src.Evaluation.Evaluator import EvaluatorHoldout
+from Evaluation.Evaluator import EvaluatorHoldout
 import traceback, os
 
 

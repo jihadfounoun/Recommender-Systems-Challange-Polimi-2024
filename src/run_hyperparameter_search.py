@@ -15,10 +15,10 @@ from functools import partial
 
 
 
-from src.Data_manager.Movielens.Movielens1MReader import Movielens1MReader
-from src.Data_manager import split_train_in_two_percentage_global_sample
+from Data_manager.Movielens.Movielens1MReader import Movielens1MReader
+from Data_manager import split_train_in_two_percentage_global_sample
 
-from src.HyperparameterTuning.run_hyperparameter_search import runHyperparameterSearch_Collaborative, runHyperparameterSearch_Content, runHyperparameterSearch_Hybrid
+from HyperparameterTuning.run_hyperparameter_search import runHyperparameterSearch_Collaborative, runHyperparameterSearch_Content, runHyperparameterSearch_Hybrid
 
 
 def read_data_split_and_search():
